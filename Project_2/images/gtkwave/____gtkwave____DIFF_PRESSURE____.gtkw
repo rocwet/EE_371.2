@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun Jan 24 23:58:28 2016
+[*]
+[dumpfile] "C:\Users\dennyly\Documents\GitHub\EE_371\Project_2\____gtkwave____DIFF_PRESSURE____.vcd"
+[dumpfile_mtime] "Sun Jan 24 23:33:09 2016"
+[dumpfile_size] 1723
+[savefile] "C:\Users\dennyly\Documents\GitHub\EE_371\Project_2\____gtkwave____DIFF_PRESSURE____.gtkw"
+[timestart] 0
+[size] 1000 336
+[pos] -1 -1
+*-8.127444 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] diff_pressure_testBench.
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 60
+@28
+diff_pressure_testBench.dut.clk
+diff_pressure_testBench.dut.reset
+diff_pressure_testBench.dut.key
+@29
+diff_pressure_testBench.dut.NS
+diff_pressure_testBench.dut.PS
+diff_pressure_testBench.dut.diff
+[pattern_trace] 1
+[pattern_trace] 0

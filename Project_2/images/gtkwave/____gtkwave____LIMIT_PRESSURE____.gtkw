@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon Jan 25 00:03:24 2016
+[*]
+[dumpfile] "C:\Users\dennyly\Documents\GitHub\EE_371\Project_2\____gtkwave____LIMIT_PRESSURE____.vcd"
+[dumpfile_mtime] "Sun Jan 24 23:38:39 2016"
+[dumpfile_size] 1725
+[savefile] "C:\Users\dennyly\Documents\GitHub\EE_371\Project_2\____gtkwave____LIMIT_PRESSURE____.gtkw"
+[timestart] 0
+[size] 1000 336
+[pos] -1 -1
+*-8.127444 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] limit_pressure_testBench.
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 60
+@28
+limit_pressure_testBench.dut.clk
+limit_pressure_testBench.dut.reset
+limit_pressure_testBench.dut.key
+@29
+limit_pressure_testBench.dut.NS
+limit_pressure_testBench.dut.PS
+limit_pressure_testBench.dut.limit
+[pattern_trace] 1
+[pattern_trace] 0
