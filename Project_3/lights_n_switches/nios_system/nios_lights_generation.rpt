@@ -1,0 +1,104 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches --output-directory=C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system --report-file=bsf:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\nios_lights.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_lights.qsys --remove-qsys-generate-warning
+Progress: Loading lights_n_switches/nios_lights.qsys
+Progress: Reading input file
+Progress: Adding LEDs [altera_avalon_pio 14.1]
+Progress: Parameterizing module LEDs
+Progress: Adding clk_0 [clock_source 14.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_qsys 14.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 14.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip [altera_avalon_onchip_memory2 14.1]
+Progress: Parameterizing module onchip
+Progress: Adding switches [altera_avalon_pio 14.1]
+Progress: Parameterizing module switches
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_lights.cpu: Nios II Classic cores are now superseded by improved Gen 2 cores.
+Info: nios_lights.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches --output-directory=C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\synthesis --file-set=QUARTUS_SYNTH --report-file=html:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\nios_lights.html --report-file=sopcinfo:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_lights.sopcinfo --report-file=cmp:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\nios_lights.cmp --report-file=qip:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\synthesis\nios_lights.qip --report-file=svd:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\synthesis\nios_lights.svd --report-file=regmap:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\synthesis\nios_lights.regmap --report-file=xml:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\nios_lights.xml --report-file=debuginfo:C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_system\synthesis\nios_lights.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=C:\Users\dennyly\Documents\GitHub\EE_371.2\Project_3\lights_n_switches\nios_lights.qsys --remove-qsys-generate-warning --language=VERILOG
+Progress: Loading lights_n_switches/nios_lights.qsys
+Progress: Reading input file
+Progress: Adding LEDs [altera_avalon_pio 14.1]
+Progress: Parameterizing module LEDs
+Progress: Adding clk_0 [clock_source 14.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_qsys 14.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 14.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip [altera_avalon_onchip_memory2 14.1]
+Progress: Parameterizing module onchip
+Progress: Adding switches [altera_avalon_pio 14.1]
+Progress: Parameterizing module switches
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_lights.cpu: Nios II Classic cores are now superseded by improved Gen 2 cores.
+Info: nios_lights.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_lights: Generating nios_lights "nios_lights" for QUARTUS_SYNTH
+Info: LEDs: Starting RTL generation for module 'nios_lights_LEDs'
+Info: LEDs:   Generation command is [exec C:/altera/14.1/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.1/quartus/bin64/perl/lib -I C:/altera/14.1/quartus/sopc_builder/bin/europa -I C:/altera/14.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.1/quartus/sopc_builder/bin -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_lights_LEDs --dir=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0001_LEDs_gen/ --quartus_dir=C:/altera/14.1/quartus --verilog --config=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0001_LEDs_gen//nios_lights_LEDs_component_configuration.pl  --do_build_sim=0  ]
+Info: LEDs: Done RTL generation for module 'nios_lights_LEDs'
+Info: LEDs: "nios_lights" instantiated altera_avalon_pio "LEDs"
+Info: cpu: Starting RTL generation for module 'nios_lights_cpu'
+Info: cpu:   Generation command is [exec C:/altera/14.1/quartus/bin64/eperlcmd.exe -I C:/altera/14.1/quartus/bin64/perl/lib -I C:/altera/14.1/quartus/sopc_builder/bin/europa -I C:/altera/14.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.1/quartus/sopc_builder/bin -I C:/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/14.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios_lights_cpu --dir=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0002_cpu_gen/ --quartus_bindir=C:/altera/14.1/quartus/bin64 --verilog --config=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0002_cpu_gen//nios_lights_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2016.02.03 19:29:54 (*) Starting Nios II generation
+Info: cpu: # 2016.02.03 19:29:54 (*)   Checking for plaintext license.
+Info: cpu: # 2016.02.03 19:29:55 (*)   Couldn't query license setup in Quartus directory C:/altera/14.1/quartus/bin64
+Info: cpu: # 2016.02.03 19:29:55 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2016.02.03 19:29:55 (*)   Plaintext license not found.
+Info: cpu: # 2016.02.03 19:29:55 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2016.02.03 19:29:55 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2016.02.03 19:29:55 (*)   Creating all objects for CPU
+Info: cpu: # 2016.02.03 19:29:56 (*)   Generating RTL from CPU objects
+Info: cpu: # 2016.02.03 19:29:56 (*)   Creating plain-text RTL
+Info: cpu: # 2016.02.03 19:29:58 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios_lights_cpu'
+Info: cpu: "nios_lights" instantiated altera_nios2_qsys "cpu"
+Info: jtag_uart: Starting RTL generation for module 'nios_lights_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/altera/14.1/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.1/quartus/bin64/perl/lib -I C:/altera/14.1/quartus/sopc_builder/bin/europa -I C:/altera/14.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.1/quartus/sopc_builder/bin -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_lights_jtag_uart --dir=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0003_jtag_uart_gen/ --quartus_dir=C:/altera/14.1/quartus --verilog --config=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0003_jtag_uart_gen//nios_lights_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'nios_lights_jtag_uart'
+Info: jtag_uart: "nios_lights" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: onchip: Starting RTL generation for module 'nios_lights_onchip'
+Info: onchip:   Generation command is [exec C:/altera/14.1/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.1/quartus/bin64/perl/lib -I C:/altera/14.1/quartus/sopc_builder/bin/europa -I C:/altera/14.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.1/quartus/sopc_builder/bin -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_lights_onchip --dir=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0004_onchip_gen/ --quartus_dir=C:/altera/14.1/quartus --verilog --config=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0004_onchip_gen//nios_lights_onchip_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip: Done RTL generation for module 'nios_lights_onchip'
+Info: onchip: "nios_lights" instantiated altera_avalon_onchip_memory2 "onchip"
+Info: switches: Starting RTL generation for module 'nios_lights_switches'
+Info: switches:   Generation command is [exec C:/altera/14.1/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.1/quartus/bin64/perl/lib -I C:/altera/14.1/quartus/sopc_builder/bin/europa -I C:/altera/14.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.1/quartus/sopc_builder/bin -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_lights_switches --dir=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0005_switches_gen/ --quartus_dir=C:/altera/14.1/quartus --verilog --config=C:/Users/dennyly/AppData/Local/Temp/alt6835_5725041059866465039.dir/0005_switches_gen//nios_lights_switches_component_configuration.pl  --do_build_sim=0  ]
+Info: switches: Done RTL generation for module 'nios_lights_switches'
+Info: switches: "nios_lights" instantiated altera_avalon_pio "switches"
+Info: mm_interconnect_0: "nios_lights" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_lights" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_lights" instantiated altera_reset_controller "rst_controller"
+Info: cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/dennyly/Documents/GitHub/EE_371.2/Project_3/lights_n_switches/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/dennyly/Documents/GitHub/EE_371.2/Project_3/lights_n_switches/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/dennyly/Documents/GitHub/EE_371.2/Project_3/lights_n_switches/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: nios_lights: Done "nios_lights" with 25 modules, 39 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
